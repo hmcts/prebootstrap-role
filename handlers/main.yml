@@ -1,0 +1,3 @@
+---
+- name: reinit systemd
+  command: systemctl daemon-reexec

@@ -1,0 +1,8 @@
+---
+resolver_conf_file: /etc/resolv.conf
+bootstrap_rotate_nameservers: true
+
+proxy:
+  host: "proxyout.reform.hmcts.net"
+  port: "8080"
+  no_proxy: "localhost,127.0.0.0/8,127.0.0.1,127.0.0.1*,local.home,reform.hmcts.net,*.reform.hmcts.net,internal,*.internal"

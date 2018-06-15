@@ -1,0 +1,7 @@
+---
+- name: Setup resolver
+  include_tasks: resolver.yml
+  tags: ['resolver']
+- name: Setup proxy
+  include_tasks: outboundproxy.yml
+  tags: ['outboundproxy']
